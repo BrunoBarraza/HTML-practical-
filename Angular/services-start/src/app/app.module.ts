@@ -11,7 +11,6 @@ import { LoggingService } from "./logging.service";
 @NgModule({
   declarations: [AppComponent, AccountComponent, NewAccountComponent],
   imports: [BrowserModule, FormsModule],
-  // ? The video did not logged 'LogginService' in the providers here, but the code asked for it. Is this okay?
   providers: [AccountsService, LoggingService],
   bootstrap: [AppComponent],
 })
